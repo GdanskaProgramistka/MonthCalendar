@@ -14,7 +14,6 @@ public class Main {
 
         System.out.println(" Pn  Wt  śr  Czw  Pt  Sb  N");
         for (int i = 1; i < value; i++) ;
-        System.out.print(" ");
 
         while (date.getMonthValue() == month) {
             System.out.printf("%3d", date.getDayOfMonth()); //!!
